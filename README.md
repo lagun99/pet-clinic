@@ -33,6 +33,7 @@ mysql> select * from vets;
 **Levantar la Aplicación**
 
 Genera la imagen.
+
 `docker build -t snahider/devopslab-pet-clinic:production-latest -f Dockerfile.build_and_deploy .`
 
 Levantar el contenedor.
